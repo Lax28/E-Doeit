@@ -1,6 +1,6 @@
 # E-Doeit
 
-Final Projek untuk mata kuliah Pemograman Integratif kelompok 10
+Final Projek untuk Mata Kuliah Pemograman Integratif kelompok 10
 
 ## Anggota Kelompok 10
 
