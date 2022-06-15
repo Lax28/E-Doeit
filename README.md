@@ -4,18 +4,18 @@ Final Projek untuk mata kuliah Pemograman Integratif kelompok 10
 
 ## Anggota Kelompok 10
 
-Richard Nicolas - 5027201021
-Muhammad Jovan Adiwijaya Yanuarsyah - 5027201025
-Dzaki Indra Cahya - 5027201053
+Richard Nicolas - 5027201021</br>
+Muhammad Jovan Adiwijaya Yanuarsyah - 5027201025</br>
+Dzaki Indra Cahya - 5027201053</br>
 
 {(E-Doeit)} = https://e-doeit.herokuapp.com/api/
 
 ## Dokumentasi API
 
 ### Registrasi
-**Endpoint**:https://e-doeit.herokuapp.com/api/registrasi
-**Method**: POST
-**Body Request**: Name, Email, dan Pass
+**Endpoint**:https://e-doeit.herokuapp.com/api/registrasi </br>
+**Method**: POST </br>
+**Body Request**: Name, Email, dan Pass </br>
 **Authorization**: -
 
 **Contoh**:
@@ -31,6 +31,7 @@ Dzaki Indra Cahya - 5027201053
 **Server Response**:
 
 *BERHASIL*
+
  ```
  {
     "status": 200,
@@ -39,6 +40,7 @@ Dzaki Indra Cahya - 5027201053
  ```
  
  *ERROR*
+ 
  ```
  {
     "status": 400,
@@ -48,9 +50,9 @@ Dzaki Indra Cahya - 5027201053
  
  
  ### Login
-**Endpoint**:https://e-doeit.herokuapp.com/api/login
-**Method**: POST
-**Body Request**: Email dan Pass
+**Endpoint**:https://e-doeit.herokuapp.com/api/login</br>
+**Method**: POST</br>
+**Body Request**: Email dan Pass</br>
 **Authorization**: -
 
 **Contoh**:
@@ -65,6 +67,7 @@ Dzaki Indra Cahya - 5027201053
 **Server Response**:
 
 *BERHASIL*
+
  ```
 {
     "status": 200,
@@ -73,6 +76,7 @@ Dzaki Indra Cahya - 5027201053
  ```
  
  *ERROR*
+ 
  ```
  {
     "status": 400,
@@ -81,9 +85,9 @@ Dzaki Indra Cahya - 5027201053
  ```
 
  ### TopUp
-**Endpoint**: https://e-doeit.herokuapp.com/api/topup
-**Method**: POST
-**Body Request**: Jumlah
+**Endpoint**: https://e-doeit.herokuapp.com/api/topup</br>
+**Method**: POST</br>
+**Body Request**: Jumlah</br>
 **Authorization**: Token JWT
 
 **Contoh**:
@@ -97,6 +101,7 @@ Dzaki Indra Cahya - 5027201053
 **Server Response**:
 
 *BERHASIL*
+
  ```
 {
     "status": 200,
@@ -105,6 +110,7 @@ Dzaki Indra Cahya - 5027201053
  ```
  
  *ERROR*
+ 
  ```
  {
     "status": 400,
@@ -113,9 +119,9 @@ Dzaki Indra Cahya - 5027201053
  ```
  
   ### Transfer
-**Endpoint**: https://e-doeit.herokuapp.com/api/transfer
-**Method**: POST
-**Body Request**: id_tujuan, jumlah dan keterangan
+**Endpoint**: https://e-doeit.herokuapp.com/api/transfer</br>
+**Method**: POST</br>
+**Body Request**: id_tujuan, jumlah dan keterangan</br>
 **Authorization**: Token JWT
 
 **Contoh**:
@@ -131,6 +137,7 @@ Dzaki Indra Cahya - 5027201053
 **Server Response**:
 
 *BERHASIL*
+
  ```
 {
     "status": 200,
@@ -139,6 +146,7 @@ Dzaki Indra Cahya - 5027201053
  ```
  
  *ERROR*
+ 
  ```
  {
     "status": 400,
@@ -147,10 +155,11 @@ Dzaki Indra Cahya - 5027201053
  ```
  
 ### Payment
-**Endpoint**: https://e-doeit.herokuapp.com/api/pay
-**Method**: POST
-**Body Request**: id_tujuan, jumlah dan keterangan
+**Endpoint**: https://e-doeit.herokuapp.com/api/pay</br>
+**Method**: POST</br>
+**Body Request**: id_tujuan, jumlah dan keterangan</br>
 **Authorization**: Token JWT
+
 
 **Contoh**:
 
@@ -161,9 +170,11 @@ Dzaki Indra Cahya - 5027201053
 }
 ```
 
+
 **Server Response**:
 
 *BERHASIL*
+
  ```
 {
     "status": 200,
@@ -172,6 +183,7 @@ Dzaki Indra Cahya - 5027201053
  ```
  
  *ERROR*
+ 
  ```
  {
     "status": 400,
@@ -180,14 +192,15 @@ Dzaki Indra Cahya - 5027201053
  ```
  
  ### History
-**Endpoint**: https://e-doeit.herokuapp.com/api/history
-**Method**: GET
-**Body Request**: -
+**Endpoint**: https://e-doeit.herokuapp.com/api/history</br>
+**Method**: GET</br>
+**Body Request**: -</br>
 **Authorization**: Token JWT
 
 **Server Response**:
 
 *BERHASIL*
+
  ```
 [
     {
@@ -242,6 +255,7 @@ Dzaki Indra Cahya - 5027201053
  ```
  
  *ERROR*
+ 
  ```
  {
     "status": 400,
